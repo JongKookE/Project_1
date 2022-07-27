@@ -14,7 +14,7 @@ TAG_NAME = "tag name"
 CLASS_NAME = "class name"
 CSS_SELECTOR = "css selector"
 
-find_name = "현아"
+find_name = "박효"
 
 import os
 
