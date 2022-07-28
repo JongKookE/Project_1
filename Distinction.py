@@ -8,7 +8,7 @@ path = "/home/jongkook/.local/lib/python3.8/site-packages/cv2/data/haarcascade_f
 face_cascade = cv2.CascadeClassifier(path)
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
-image = cv2.imread("/home/jongkook/PycharmProjects/find_img/all_face/0/박효신_100.jpg")
+image = cv2.imread("/home/jongkook/PycharmProjects/find_img/all_face/0/박효신_100.jpg") # !!! 에러뜨니까 한글 절대 사용 금지!
 grayImage = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # 흑백이미지 그리기
