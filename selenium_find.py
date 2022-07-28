@@ -14,7 +14,7 @@ TAG_NAME = "tag name"
 CLASS_NAME = "class name"
 CSS_SELECTOR = "css selector"
 
-find_name = "박효"
+find_name = "박효신"
 
 import os
 
@@ -51,7 +51,7 @@ count = 1
 for image in images:
     try:
         image.click()
-        time.sleep(2)
+        time.sleep(0.5)
         imgUrl = driver.find_element(CSS_SELECTOR, ".n3VNCb.KAlRDb").get_attribute('src')
         urllib.request.urlretrieve(imgUrl, find_name + "/" + find_name + "_" + str(count) + ".jpg")
         print("Image saved: {0}_{1}.jpg".format(find_name, count))
